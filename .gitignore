@@ -1,0 +1,13 @@
+application/cache
+*.class
+*.iml
+
+*.idea
+*.log
+*.jar
+gradle-wrapper.properties
+*.MF
+build/*
+.idea/*
+.idea/vcs.xml
+.gradle/*
