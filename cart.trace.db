@@ -1,0 +1,6 @@
+11-30 19:48:43 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "ITEM" already exists; SQL statement:
+create table item (item_number integer not null, image_url varchar(255), item_name varchar(255), price decimal(19,2), price_each_quantity integer not null, quantity integer not null, primary key (item_number)) [42101-148]
+11-30 19:49:38 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "ITEM" already exists; SQL statement:
+#create table item (item_number integer not null, image_url varchar(255), item_name varchar(255), price decimal(19,2), price_each_quantity integer not null, quantity integer not null, primary key (item_number)) [42101-148]
